@@ -145,6 +145,19 @@ span {
   color: #48556a;
   opacity: 0.7;
 }
+
+.challenge {
+  position: absolute;
+  top: 87%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 16px;
+  color: #48556a;
+  text-transform: capitalize;
+}
+.challenge a {
+  text-decoration: none;
+}
 @media (max-width: 375px) {
   section {
     display: block;
@@ -180,17 +193,9 @@ span {
   .card:nth-child(1)::before {
     right: -20px;
   }
-}
-
-.challenge {
-  position: absolute;
-  top: 87%;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 16px;
-  color: #48556a;
-  text-transform: capitalize;
-}
-.challenge a {
-  text-decoration: none;
+  .challenge {
+    top: 225%;
+    font-size: 12px;
+    width: 265px;
+  }
 }
